@@ -1,0 +1,9 @@
+
+
+source="/c/Users/sumadine/Desktop/shell/localvariable.sh"
+
+echo "******************"
+
+echo $name
+
+
