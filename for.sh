@@ -15,24 +15,24 @@
 
 #for (( i=0; i<5; i++ ))
 #do
-#	echo $i
+#	echo -n $i ; echo -n " "
 #done
 
 
-#for command in ls pwd date
-#do
-#	echo "........$command......."
-#        $command
-#done
-
-
-for item in *
+for command in ls pwd date
 do
-	if [ -d $item ]
-	then
-		echo $item
-	fi
+	echo "........$command......."
+        $command
 done
+
+
+#for item in *
+#do
+#	if [ -d $item ]
+#	then
+#		echo $item
+#	fi
+#done
 
 #for item1 in *
 #do 
